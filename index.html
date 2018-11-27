@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta content="stuff, to, help, search, engines, not" name="keywords">
+<meta content="What this page is about." name="description">
+<meta content="Display Webcam Stream" name="title">
+<title>Display Webcam Stream</title>
+  
+<link rel="stylesheet" href="main.css" type="text/css" media="all">
+<script src="testing.js">
+	</script>
+</head>
+  
+<body>
+<div id="container">
+    <video autoplay="true" id="videoElement">
+    </video>
+	<button id="startbutton">Take photo</button>
+</div>
+
+  <canvas id="canvas">
+  </canvas>
+  <div class="output">
+    <img id="photo" alt="The screen capture will appear in this box."> 
+  </div>
+  <textarea rows="10" cols="50" id="myspan">
+this should be the text from the image 
+</textarea>
+<textarea rows="10" cols="50" id="endingid">
+this should be the keyword extractor
+</textarea>
+  <!--
+<script>
+ var video = document.querySelector("#videoElement");
+ 
+if (navigator.mediaDevices.getUserMedia) {       
+    navigator.mediaDevices.getUserMedia({video: true})
+  .then(function(stream) {
+    video.srcObject = stream;
+  })
+  .catch(function(err0r) {
+    console.log("Something went wrong!");
+  });
+}
+</script>
+-->
+</body>
+</html>

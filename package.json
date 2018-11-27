@@ -1,0 +1,27 @@
+{
+  "name": "hci",
+  "version": "1.0.0",
+  "description": "HCI project",
+  "main": "example.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Joseph Guevara",
+  "license": "ISC",
+  "dependencies": {
+    "brfs": "^2.0.1",
+    "data-uri-to-buffer": "^2.0.0",
+    "data-uri-to-file": "^0.1.8",
+    "express": "^4.16.4",
+    "fs": "0.0.1-security",
+    "keyword-extractor": "0.0.15",
+    "node-rake": "^1.0.1",
+    "retext": "^5.0.0",
+    "retext-keywords": "^4.0.1",
+    "tesseract.js": "^1.0.10",
+    "tesseractocr": "^1.1.1",
+    "to-vfile": "^5.0.2",
+    "util": "^0.11.1",
+    "ws": "^6.1.0"
+  }
+}
